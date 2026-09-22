@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased — bilingual profile baseline
+## 2026-09-22 — Bilingual profile baseline
 
 - concise English profile README with Latvian language switch;
 - full Latvian profile mirror;
@@ -12,3 +12,5 @@
 - automated tests and least-privilege GitHub Actions;
 - monthly public-link health check;
 - CODEOWNERS and editor hygiene.
+
+- final English/Latvian terminology and professional-positioning review.

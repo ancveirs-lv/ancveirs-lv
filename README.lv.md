@@ -2,7 +2,7 @@
 
 **Latviski** · [English](README.md)
 
-**Programmatūras inženieris · neatkarīgs kiberdrošības pētnieks · sabiedrības interešu tehnoloģijas**
+**Tehnoloģiju vadītājs · programmatūras inženieris · neatkarīgs kiberdrošības pētnieks**
 
 Projektēju, izstrādāju un vērtēju digitālās sistēmas, kurās būtiska ir **drošība, datu integritāte, regulējuma prasības, auditējamība un operacionālā noturība**.
 
@@ -15,7 +15,7 @@ Jautājums, pie kura regulāri atgriežos:
 Priekšroku dodu sistēmām, kas ir **drošas, novērojamas, reproducējamas un paredzami uzticamas**.
 
 <!-- section:public-work -->
-## Publiskais darbs
+## Publiskie projekti
 
 ### [Latvijas digitālā noturība](https://github.com/ancveirs-lv/latvia-digital-resilience)
 
@@ -54,7 +54,7 @@ Pašreizējie pētniecības virzieni:
 - koordinēta ievainojamību atklāšana un ziņošana;
 - programmatūras piegādes ķēdes pierādījumi;
 - digitālā noturība un darbība degradētā režīmā;
-- pierādījumos balstīts kiberdrošības assurance.
+- pierādījumos balstīta kiberdrošības apliecināšana.
 
 <!-- section:focus -->
 ## Fokuss
@@ -88,36 +88,36 @@ Arhitektūra, drošība, datu kvalitāte, operacionālais risks, uzturamība, uz
 
 Strādāju krustpunktā starp **inženieriju, kiberdrošības politiku, regulējumu un standartu praktisku ieviešanu**.
 
-Visvairāk sekoju šādām jomām:
+Strādāju un īpaši sekoju šādām jomām:
 
 - ES Kibernoturības akta ieviešana;
 - koordinēta ievainojamību atklāšana un labticīga drošības izpēte;
 - ievainojamību ziņošana un prioritizācija;
-- secure-by-design un secure-by-default pieeja;
+- drošība pēc dizaina (`secure by design`) un droši noklusējumi (`secure by default`);
 - programmatūras piegādes ķēdes drošība un SBOM savietojamība;
-- kiberdrošības assurance un atbilstības pierādījumi;
+- kiberdrošības apliecināšana (`assurance`) un atbilstības pierādījumi;
 - IKT dzīves cikla izsekojamība;
 - MI kiberdrošība un pārvaldība;
 - publiskās digitālās infrastruktūras noturība.
 
 Inženierijas ķēde, kas mani interesē:
 
-**politika → standarti → inženiertehniskās kontroles → operacionālie pierādījumi → assurance**
+**politika → standarti → inženiertehniskās kontroles → operacionālie pierādījumi → apliecināšana**
 
 <!-- section:principles -->
 ## Inženierijas principi
 
 **Vispirms pierādījumi.** Būtiski apgalvojumi jāpamato ar datiem, žurnāliem, avotiem vai reproducējamu sistēmas stāvokli.
 
-**Izsekojamība pēc noklusējuma.** Izmaiņām, lēmumiem, datu transformācijām un izvietotajiem artefaktiem jābūt attiecināmiem un rekonstruējamiem.
+**Izsekojamība pēc dizaina.** Izmaiņām, lēmumiem, datu transformācijām un izvietotajiem artefaktiem jābūt attiecināmiem un rekonstruējamiem.
 
-**Līgumi pirms pieņēmumiem.** Skaidras shēmas, API, invarianti un savietojamības noteikumi ir labāki par nedokumentētu uzvedību.
+**Skaidri tehniskie kontrakti pirms pieņēmumiem.** Skaidras shēmas, API, invarianti un savietojamības noteikumi ir labāki par nedokumentētu uzvedību.
 
 **Drošība un privātums pēc dizaina.** Mazāko privilēģiju princips, droši noklusējumi, minimāla datu vākšana un skaidras uzticības robežas ir arhitektūras sastāvdaļa.
 
 **Noturība ietver degradētu darbību.** Būtiskām sistēmām apzināti jādefinē un jāpārbauda darbība situācijās, kad normāls režīms nav pieejams.
 
-**MI nav patiesības avots.** Sekas radošai MI atbalstītai izvadei vajadzīgas validācijas robežas, izcelsme, uzticami pierādījumi un skaidrs cilvēka pilnvarojums.
+**MI nav patiesības avots.** MI atbalstītiem rezultātiem, kas var radīt būtiskas sekas, vajadzīgas validācijas robežas, izcelsmes informācija, uzticami pierādījumi un skaidrs cilvēka pilnvarojums.
 
 <!-- section:stack -->
 ## Tehniskais steks
@@ -126,7 +126,7 @@ Inženierijas ķēde, kas mani interesē:
 
 `Go` · `Python` · `TypeScript` · `JavaScript` · `Dart` · `PHP`
 
-**Backend un platformas**
+**Aizmugursistēmas un platformas**
 
 REST API · notikumu vadītas sistēmas · asinhrona apstrāde · sadalīti servisi · autentifikācija un autorizācija · integrāciju arhitektūra
 
@@ -136,7 +136,7 @@ PostgreSQL · Redis · datu plūsmas · validācija · datu izcelsme · shēmu e
 
 **Infrastruktūra**
 
-Linux · konteineri · cloud/edge arhitektūra · reverse proxy · CI/CD · novērojamība · izvietošanas automatizācija · veiktspējas inženierija
+Linux · konteineri · mākoņdatošanas un edge arhitektūra · reversie starpniekserveri · CI/CD · novērojamība · izvietošanas automatizācija · veiktspējas inženierija
 
 **Drošība**
 
@@ -144,7 +144,7 @@ Draudu modelēšana · droša arhitektūra · mazāko privilēģiju princips · 
 
 **MI**
 
-LLM atbalstītas sistēmas · strukturēta izvade · retrieval · validācija · guardrails · cilvēka uzraudzība · pierādījumos balstīta automatizācija
+LLM atbalstītas sistēmas · strukturēta izvade · informācijas izgūšana · validācija · drošības ierobežojumi · cilvēka uzraudzība · pierādījumos balstīta automatizācija
 
 <!-- section:collaboration -->
 ## Sadarbība
@@ -170,4 +170,4 @@ Vislabāk atbilst darbi, kuros **arhitektūrai, drošībai, datiem, regulējumam
 
 Šis README ir profesionāls profils, nevis pierādījumu reģistrs vai juridisks atzinums.
 
-Avotos pamatotiem tehniskiem un politikas apgalvojumiem, metodoloģijai, licencēšanai un ieguldījumu noteikumiem izmantojami saistītie projektu repozitoriji un to dokumentācija.
+Avotos pamatotiem tehniskiem un politikas apgalvojumiem, metodoloģijai, licencēšanai un līdzdalības noteikumiem izmantojami saistītie projektu repozitoriji un to dokumentācija.

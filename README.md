@@ -2,7 +2,7 @@
 
 [Latviski](README.lv.md) · **English**
 
-**Software engineer · independent cybersecurity researcher · public-interest technology**
+**Technology leader · software engineer · independent cybersecurity researcher**
 
 I design, build and assess digital systems where **security, data integrity, regulation, auditability and operational resilience** matter.
 
@@ -15,7 +15,7 @@ My recurring question is:
 I prefer systems that are **secure, observable, reproducible and boringly reliable**.
 
 <!-- section:public-work -->
-## Public work
+## Selected public work
 
 ### [Latvia Digital Resilience](https://github.com/ancveirs-lv/latvia-digital-resilience)
 
@@ -46,7 +46,7 @@ The project distinguishes established professional concepts from inconsistent ja
 
 [SSRN / DOI 10.2139/ssrn.7355200](https://doi.org/10.2139/ssrn.7355200)
 
-Current research interests include:
+Current research directions include:
 
 - vulnerability severity versus exploitation evidence;
 - CVSS, EPSS and KEV as distinct decision signals;
@@ -88,7 +88,7 @@ Architecture, security, data quality, operational risk, maintainability, trust b
 
 I work at the intersection of **engineering, cybersecurity policy, regulation and standards implementation**.
 
-The areas I follow most closely include:
+The areas I work on and follow closely include:
 
 - EU Cyber Resilience Act implementation;
 - coordinated vulnerability disclosure and good-faith security research;

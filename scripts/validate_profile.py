@@ -37,6 +37,7 @@ SECTION_ORDER = (
 MARKER_RE = re.compile(r"<!--\s*section:([a-z0-9-]+)\s*-->")
 LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 H2_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
+ALLOWED_LINK_KINDS = {"profile", "project", "research"}
 
 
 def read(path: Path) -> str:
@@ -111,8 +112,17 @@ def validate_registered_links() -> list[str]:
             continue
 
         link_id = item.get("id")
+        kind = item.get("kind")
         url = item.get("url")
         required = item.get("required_in_both_readmes")
+
+        if kind not in ALLOWED_LINK_KINDS:
+            errors.append(f"link {link_id!r} has invalid kind: {kind!r}")
+
+        if not isinstance(required, bool):
+            errors.append(
+                f"link {link_id!r} required_in_both_readmes must be boolean"
+            )
 
         if not isinstance(link_id, str) or not re.fullmatch(r"[a-z0-9_]+", link_id):
             errors.append(f"invalid link id: {link_id!r}")
@@ -138,6 +148,16 @@ def validate_registered_links() -> list[str]:
         errors.append("duplicate link id")
     if len(urls) != len(set(urls)):
         errors.append("duplicate registered URL")
+
+    registered_urls = set(urls)
+    readme_external_urls = {
+        target
+        for target in LINK_RE.findall(en + "\n" + lv)
+        if target.startswith("https://")
+    }
+
+    for url in sorted(readme_external_urls - registered_urls):
+        errors.append(f"README external URL is not registered: {url}")
 
     return errors
 
