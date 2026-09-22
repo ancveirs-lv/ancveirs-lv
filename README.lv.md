@@ -39,6 +39,22 @@ Pamata jautājumi:
 
 Projekts nošķir profesionāli nostiprinātus jēdzienus no nekonsekventa žargona un redakcionālām metaforām.
 
+### [Paroļu drošība](https://github.com/ancveirs-lv/password-security)
+
+Divvalodu, pierādījumos balstītas paroļu drošības vadlīnijas lietotājiem, produktu komandām un pakalpojumu uzturētājiem. Angļu versija ir globāla, bet latviešu versija ir lokalizācijas slānis. Projekts nošķir lietotāju ieteikumus no pakalpojuma puses paroļu politikas prasībām un skaidri apskata izplatītus paroļu drošības mītus.
+
+Pierādījumu modelis:
+
+**avots → apgalvojums → vadlīnija → validācija**
+
+### [Kiberdrošības minimums](https://github.com/ancveirs-lv/cybersecurity-minimum)
+
+25 noteikumu divvalodu kiberdrošības minimums ikdienas digitālajai drošībai. Angļu versija ir globāla, savukārt latviešu versijā atsevišķas ieviešanas detaļas — piemēram, ziņošanas ceļi un aizsardzības pakalpojumi — ir lokalizētas, neuzdodot tās par globālām prasībām.
+
+Pierādījumu modelis:
+
+**avots → kontrole → lokalizēta vadlīnija → validācija**
+
 <!-- section:research -->
 ## Pētniecība
 
