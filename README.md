@@ -39,6 +39,22 @@ Its core questions are:
 
 The project distinguishes established professional concepts from inconsistent jargon and editorial metaphors.
 
+### [Password Security](https://github.com/ancveirs-lv/password-security)
+
+Bilingual, evidence-backed password security guidance for users, product teams and service owners. The English edition is global; the Latvian edition is a localisation layer. The project separates user advice from service-side password-policy requirements and explicitly addresses common password myths.
+
+Its evidence model is:
+
+**source → claim → guidance → validation**
+
+### [Cybersecurity Minimum](https://github.com/ancveirs-lv/cybersecurity-minimum)
+
+A 25-rule bilingual cybersecurity baseline for everyday digital life. The English edition is global, while the Latvian edition localises selected implementation details such as reporting paths and protective services without presenting them as global requirements.
+
+Its evidence model is:
+
+**source → control → localised guidance → validation**
+
 <!-- section:research -->
 ## Research
 

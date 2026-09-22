@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-22 — Public security projects
+
+- added Password Security to the bilingual public-work section;
+- added Cybersecurity Minimum to the bilingual public-work section;
+- registered both repositories as required public project links.
+
 ## 2026-09-22 — Professional identity badges
 
 - replaced plain LinkedIn, ORCID and SSRN identity links with compact flat-square badges;

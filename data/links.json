@@ -20,6 +20,18 @@
       "required_in_both_readmes": true
     },
     {
+      "id": "password_security",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/password-security",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "cybersecurity_minimum",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/cybersecurity-minimum",
+      "required_in_both_readmes": true
+    },
+    {
       "id": "severity_exploitation_research",
       "kind": "research",
       "url": "https://doi.org/10.2139/ssrn.7355200",
