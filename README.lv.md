@@ -2,6 +2,8 @@
 
 **Latviski** · [English](README.md)
 
+[LinkedIn](https://lv.linkedin.com/in/ancveirs) · [ORCID](https://orcid.org/0009-0002-7349-9888) · [SSRN](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548)
+
 **Tehnoloģiju vadītājs · programmatūras inženieris · neatkarīgs kiberdrošības pētnieks**
 
 Projektēju, izstrādāju un vērtēju digitālās sistēmas, kurās būtiska ir **drošība, datu integritāte, regulējuma prasības, auditējamība un operacionālā noturība**.

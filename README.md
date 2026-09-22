@@ -2,6 +2,8 @@
 
 [Latviski](README.lv.md) · **English**
 
+[LinkedIn](https://lv.linkedin.com/in/ancveirs) · [ORCID](https://orcid.org/0009-0002-7349-9888) · [SSRN](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548)
+
 **Technology leader · software engineer · independent cybersecurity researcher**
 
 I design, build and assess digital systems where **security, data integrity, regulation, auditability and operational resilience** matter.

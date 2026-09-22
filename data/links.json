@@ -24,6 +24,24 @@
       "kind": "research",
       "url": "https://doi.org/10.2139/ssrn.7355200",
       "required_in_both_readmes": true
+    },
+    {
+      "id": "linkedin",
+      "kind": "profile",
+      "url": "https://lv.linkedin.com/in/ancveirs",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "orcid",
+      "kind": "profile",
+      "url": "https://orcid.org/0009-0002-7349-9888",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "ssrn_author",
+      "kind": "research",
+      "url": "https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548",
+      "required_in_both_readmes": true
     }
   ]
 }
