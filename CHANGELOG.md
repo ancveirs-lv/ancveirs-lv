@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-22 — Professional identity badges
+
+- replaced plain LinkedIn, ORCID and SSRN identity links with compact flat-square badges;
+- retained canonical profile destinations and automated link-health coverage;
+- hardened Markdown link parsing so badge image URLs are not treated as canonical profile links;
+- added regression coverage for nested badge links.
+
 ## 2026-09-22 — Professional identity links
 
 - added compact LinkedIn, ORCID and SSRN identity links to both profile languages;

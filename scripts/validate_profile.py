@@ -35,7 +35,8 @@ SECTION_ORDER = (
 )
 
 MARKER_RE = re.compile(r"<!--\s*section:([a-z0-9-]+)\s*-->")
-LINK_RE = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
+IMAGE_RE = re.compile(r"!\[[^\]]*\]\(([^)]+)\)")
+LINK_RE = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 H2_RE = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 ALLOWED_LINK_KINDS = {"profile", "project", "research"}
 
@@ -46,6 +47,11 @@ def read(path: Path) -> str:
 
 def load_links() -> dict:
     return json.loads(read(LINKS_FILE))
+
+
+def extract_link_targets(text: str) -> list[str]:
+    without_images = IMAGE_RE.sub("", text)
+    return LINK_RE.findall(without_images)
 
 
 def validate_required_files() -> list[str]:
@@ -152,7 +158,7 @@ def validate_registered_links() -> list[str]:
     registered_urls = set(urls)
     readme_external_urls = {
         target
-        for target in LINK_RE.findall(en + "\n" + lv)
+        for target in extract_link_targets(en + "\n" + lv)
         if target.startswith("https://")
     }
 
@@ -167,7 +173,7 @@ def validate_local_links() -> list[str]:
 
     for path in (README_EN, README_LV):
         text = read(path)
-        for target in LINK_RE.findall(text):
+        for target in extract_link_targets(text):
             if target.startswith(("https://", "mailto:", "#")):
                 continue
 

@@ -2,7 +2,7 @@
 
 **Latviski** · [English](README.md)
 
-[LinkedIn](https://lv.linkedin.com/in/ancveirs) · [ORCID](https://orcid.org/0009-0002-7349-9888) · [SSRN](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-profile-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://lv.linkedin.com/in/ancveirs) [![ORCID](https://img.shields.io/badge/ORCID-profile-A6CE39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-7349-9888) [![SSRN](https://img.shields.io/badge/SSRN-author-555555?style=flat-square&logo=ssrn&logoColor=white)](https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548)
 
 **Tehnoloģiju vadītājs · programmatūras inženieris · neatkarīgs kiberdrošības pētnieks**
 
