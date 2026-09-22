@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "links": [
+    {
+      "id": "github_profile",
+      "kind": "profile",
+      "url": "https://github.com/ancveirs-lv",
+      "required_in_both_readmes": false
+    },
+    {
+      "id": "latvia_digital_resilience",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/latvia-digital-resilience",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "cyber_roles_authorization_evidence",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/cyber-roles-authorization-evidence",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "severity_exploitation_research",
+      "kind": "research",
+      "url": "https://doi.org/10.2139/ssrn.7355200",
+      "required_in_both_readmes": true
+    }
+  ]
+}
