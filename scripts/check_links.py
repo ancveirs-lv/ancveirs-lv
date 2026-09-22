@@ -29,7 +29,7 @@ def main() -> int:
                 if not 200 <= status < 400:
                     failures += 1
         except urllib.error.HTTPError as exc:
-            if exc.code in (403, 429):
+            if exc.code in (403, 429, 999):
                 print(f"WARN {exc.code:<3} {item['id']}: rate-limited or bot-blocked")
             else:
                 print(f"FAIL {exc.code:<3} {item['id']}: {item['url']}")
