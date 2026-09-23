@@ -55,6 +55,23 @@ Its evidence model is:
 
 **source → control → localised guidance → validation**
 
+### Open Self-Assessment Family
+
+Four bilingual, evidence-oriented self-assessment repositories covering executive digital governance, individual digital competence, organisational cybersecurity readiness and personal cybersecurity. The English editions are global baselines; the Latvian editions are localisation layers.
+
+The shared model is:
+
+**source → domain → question → response state → gap → action → reassessment**
+
+The family intentionally avoids a single overall safety, compliance or maturity score and makes unknown or unsupported states visible.
+
+- [Executive Digital Governance Self-Assessment](https://github.com/ancveirs-lv/executive-digital-governance-assessment) — governance evidence and decision readiness for executives, owners and boards.
+- [Digital Competence Self-Assessment](https://github.com/ancveirs-lv/digital-competence-self-assessment) — DigComp 3.0-aligned capability self-assessment for individuals, with project-specific response semantics.
+- [Cybersecurity Readiness Self-Assessment](https://github.com/ancveirs-lv/cybersecurity-readiness-assessment) — NIST CSF 2.0-aligned organisational readiness and evidence-gap assessment.
+- [Personal Cybersecurity Self-Assessment](https://github.com/ancveirs-lv/personal-cybersecurity-assessment) — practice-based assessment of accounts, devices, data, fraud resistance and recovery readiness.
+
+The `v0.1.1` family baseline was hardened through a five-direction skeptical audit covering methodology, source fidelity, coverage and duplication, EN/LV localisation, and scoring/evidence semantics.
+
 <!-- section:research -->
 ## Research
 
