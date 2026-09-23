@@ -78,6 +78,12 @@
       "kind": "project",
       "url": "https://github.com/ancveirs-lv/personal-cybersecurity-assessment",
       "required_in_both_readmes": true
+    },
+    {
+      "id": "secure_vibe_coding",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/secure-vibe-coding",
+      "required_in_both_readmes": true
     }
   ]
 }
