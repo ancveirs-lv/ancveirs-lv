@@ -54,6 +54,30 @@
       "kind": "research",
       "url": "https://papers.ssrn.com/Sol3/Cf_Dev/AbsByAuth.cfm?per_id=12909548",
       "required_in_both_readmes": true
+    },
+    {
+      "id": "executive_digital_governance_assessment",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/executive-digital-governance-assessment",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "digital_competence_self_assessment",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/digital-competence-self-assessment",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "cybersecurity_readiness_assessment",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/cybersecurity-readiness-assessment",
+      "required_in_both_readmes": true
+    },
+    {
+      "id": "personal_cybersecurity_assessment",
+      "kind": "project",
+      "url": "https://github.com/ancveirs-lv/personal-cybersecurity-assessment",
+      "required_in_both_readmes": true
     }
   ]
 }

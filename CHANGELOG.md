@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-23 — Open self-assessment family
+
+- added the four audited `v0.1.1` self-assessment repositories as one bilingual public-work family;
+- documented the shared gap-to-action model and explicit no-aggregate-score boundary;
+- registered all four repositories as required EN/LV public project links.
+
 ## 2026-09-22 — Public security projects
 
 - added Password Security to the bilingual public-work section;

@@ -55,6 +55,23 @@ Pierādījumu modelis:
 
 **avots → kontrole → lokalizēta vadlīnija → validācija**
 
+### Atvērtā pašnovērtējumu saime
+
+Četri divvalodu, pierādījumos orientēti pašnovērtējuma repozitoriji uzņēmumu vadītāju digitālajai pārvaldībai, individuālajām digitālajām kompetencēm, organizāciju kiberdrošības gatavībai un personīgajai kiberdrošībai. Angļu versijas ir globāls pamats, bet latviešu versijas — lokalizācijas slānis.
+
+Kopīgais modelis:
+
+**avots → joma → jautājums → atbildes stāvoklis → nepilnība → darbība → atkārtots novērtējums**
+
+Saime apzināti neveido vienu kopēju drošības, atbilstības vai brieduma skaitli un saglabā redzamus nezināmus vai nepietiekami pamatotus stāvokļus.
+
+- [Digitālās pārvaldības pašnovērtējums uzņēmuma vadītājam](https://github.com/ancveirs-lv/executive-digital-governance-assessment) — pārvaldības pierādījumi un lēmumu gatavība vadītājiem, īpašniekiem un valdēm.
+- [Digitālo kompetenču pašnovērtējums ikvienam](https://github.com/ancveirs-lv/digital-competence-self-assessment) — ar DigComp 3.0 saskaņots individuālo spēju pašnovērtējums ar projekta specifisku atbilžu semantiku.
+- [Kiberdrošības gatavības pašnovērtējums uzņēmumam](https://github.com/ancveirs-lv/cybersecurity-readiness-assessment) — ar NIST CSF 2.0 saskaņots organizācijas gatavības un pierādījumu nepilnību novērtējums.
+- [Personīgās kiberdrošības pašnovērtējums ikvienam](https://github.com/ancveirs-lv/personal-cybersecurity-assessment) — praksē balstīts kontu, ierīču, datu, krāpšanas noturības un atkopšanas gatavības pašnovērtējums.
+
+`v0.1.1` saimes bāzes versija tika nostiprināta piecu virzienu skeptiskajā auditā: metodoloģija, avotu atbilstība, pārklājums un dublēšanās, EN/LV lokalizācija un scoring/pierādījumu semantika.
+
 <!-- section:research -->
 ## Pētniecība
 
