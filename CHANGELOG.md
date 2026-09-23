@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-23 — Anti-AI-Slop release baseline
+
+- added the audited `v0.1.1` Secure Vibe Coding project to both public-work sections;
+- registered the project as a required link in both languages;
+- kept the release-evidence gate distinct from certification or independent security assessment.
+
 ## 2026-09-23 — Open self-assessment family
 
 - added the four audited `v0.1.1` self-assessment repositories as one bilingual public-work family;

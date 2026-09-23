@@ -72,6 +72,12 @@ The family intentionally avoids a single overall safety, compliance or maturity 
 
 The `v0.1.1` family baseline was hardened through a five-direction skeptical audit covering methodology, source fidelity, coverage and duplication, EN/LV localisation, and scoring/evidence semantics.
 
+### [Anti-AI-Slop — Secure Vibe Coding Baseline](https://github.com/ancveirs-lv/secure-vibe-coding)
+
+A bilingual release-readiness baseline for AI-assisted software development: **32 controls across eight domains**, plus 16 diagnostic indicators for common AI-assisted development failure patterns.
+
+Its evidence-based gate distinguishes `BLOCKED`, `CONDITIONAL` and `READY` without assigning an overall security score. The published `v0.1.1` baseline includes a five-direction skeptical audit and release-contract hardening; it is not a certification or a substitute for independent security assessment.
+
 <!-- section:research -->
 ## Research
 

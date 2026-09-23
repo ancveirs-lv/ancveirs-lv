@@ -72,6 +72,12 @@ Saime apzināti neveido vienu kopēju drošības, atbilstības vai brieduma skai
 
 `v0.1.1` saimes bāzes versija tika nostiprināta piecu virzienu skeptiskajā auditā: metodoloģija, avotu atbilstība, pārklājums un dublēšanās, EN/LV lokalizācija un scoring/pierādījumu semantika.
 
+### [Anti-AI-Slop — Drošības minimums MI atbalstītai programmatūras izstrādei](https://github.com/ancveirs-lv/secure-vibe-coding)
+
+Divvalodu izlaišanas gatavības minimums programmatūrai, kas izstrādāta ar MI palīdzību: **32 kontroles astoņās jomās** un 16 diagnostiski indikatori izplatītām MI atbalstītas izstrādes kļūdām.
+
+Pierādījumos balstītais novērtējums nošķir `BLOCKED`, `CONDITIONAL` un `READY`, neveidojot kopējo drošības punktu skaitu. Publicētā `v0.1.1` versija ietver piecu virzienu skeptisko auditu un izlaišanas nosacījumu nostiprināšanu; tā nav sertifikācija vai neatkarīga drošības audita aizstājējs.
+
 <!-- section:research -->
 ## Pētniecība
 
